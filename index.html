@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Graphic Design & Code Leader</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Loader -->
+<div id="loader">
+  <div class="spinner"></div>
+</div>
+
+<!-- Navbar -->
+<header class="navbar">
+  <div class="nav-logo">GDC</div>
+
+  <nav class="nav-links">
+    <a onclick="showPage('home')" id="link-home">الرئيسية</a>
+    <a onclick="showPage('services')" id="link-services">الخدمات</a>
+    <a onclick="showPage('extra')" id="link-extra">المزيد</a>
+  </nav>
+
+  <div class="nav-actions">
+    <button onclick="toggleDark()">🌙</button>
+    <div class="menu-btn" onclick="toggleMenu()">☰</div>
+  </div>
+</header>
+
+<!-- Splash -->
+<section id="splash" class="page center">
+  <img src="images/لوغو.png" class="logo fade-in">
+  <p class="fade-in">Graphic Design & Code Leader</p>
+</section>
+
+<!-- Home -->
+<section id="home" class="page center">
+  <img src="images/لوغو.png" class="logo fade-in">
+
+  <p class="subtitle fade-in">Graphic Design & Code Leader</p>
+
+  <h1 class="fade-in">
+    <span>هويتك، منصتك،</span><br>
+    جمهورك... بمكان واحد
+  </h1>
+
+  <button onclick="showPage('services')">ابدأ</button>
+</section>
+
+<!-- Services -->
+<section id="services" class="page">
+
+  <div class="services-container">
+
+    <div class="service fade-in">
+      <h3>التصميم الجرافيكي</h3>
+      <p>التصميم هو كيف يعمل الشيء</p>
+      <img src="images/1.png">
+    </div>
+
+    <div class="service fade-in">
+      <h3>البرمجة</h3>
+      <p>حل المشكلات وبناء المستقبل</p>
+      <img src="images/2.png">
+    </div>
+
+    <div class="service fade-in">
+      <h3>التسويق الرقمي</h3>
+      <p>يجعل العميل يشعر أنه ذكي</p>
+      <img src="images/3.png">
+    </div>
+
+    <div class="service fade-in">
+      <h3>إدارة المنصات</h3>
+      <p>بناء مجتمعات وصناعة تأثير</p>
+      <img src="images/4.png">
+    </div>
+
+  </div>
+
+  <div class="btn-center">
+    <button onclick="showPage('extra')">المزيد</button>
+  </div>
+
+</section>
+
+<!-- Extra -->
+<section id="extra" class="page center">
+
+  <div class="service fade-in">
+    <h3>واجهة وتجربة المستخدم</h3>
+    <p>تصميم يمنحك تجربة سلسة وسهلة</p>
+    <img src="images/5.png">
+  </div>
+
+  <div class="service fade-in">
+    <h3>استشارات طلاب التخرج</h3>
+    <p>نساعدك تبني مشروعك بثقة</p>
+    <img src="images/6.png">
+  </div>
+
+</section>
+
+<!-- Footer -->
+<footer class="footer center">
+  <div class="contact fade-in">
+    <a href="https://www.instagram.com/graphic_designcode_leader_?igsh=MWZmdDlzcW00eTUxbQ==" target="_blank">Instagram</a>
+    <a href="tel:+971528643973">+971 52 864 3973</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
